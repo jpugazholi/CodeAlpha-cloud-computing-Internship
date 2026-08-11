@@ -73,19 +73,6 @@ LocalStorage provides client-side data persistence for this prototype, so a sepa
 
 Users can register and login using their registered credentials.
 
-### Admin Login
-
-Select **Admin** from the Login As dropdown.
-
-Demo admin credentials:
-
-```text
-Email: admin@cloudbuspass.com
-Password: Admin@123
-```
-
-> These credentials are for the internship prototype only. Production applications should use server-side authentication and authorization.
-
 ## 🔄 Application Flow
 
 ```text
