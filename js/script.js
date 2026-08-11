@@ -149,6 +149,11 @@ document.addEventListener("DOMContentLoaded", function () {
                         "true"
                     );
 
+                    console.log(
+                        "Admin login state:",
+                        localStorage.getItem("adminloggedIn")
+                    );
+
 
                     alert(
                         "Admin login successful!"
