@@ -231,26 +231,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     /* ===========ADMIN DASHBOARD SECURITY===================================================== */
 
-    if (
-        window.location.pathname.endsWith(
-            "admin-dashboard.html"
-        )
-    ) {
-
-        const adminLoggedIn =
-            localStorage.getItem("adminLoggedIn");
-
-
-        if (adminLoggedIn !== "true") {
-
-            window.location.href =
-                "login.html";
-
-        }
-
+    if(window.location.pathname.endwith("admin-dashboard.html")){
+        const adminLoggedIn=localStorage.getItem("adminLoggedIn");
+        console.log("Dashboard admin session:",adminLoggedIn);
     }
-
-
 
     /* ===================APPLY PASS================== */
 
